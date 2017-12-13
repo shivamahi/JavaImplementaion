@@ -31,7 +31,7 @@ public class LinearSearch {
 		if (index == -1)
 			System.out.println("Element Not Found");
 		else
-			System.out.println("Elemnt Is Found In Position : " + index + 1);
+			System.out.println("Elemnt Is Found In Position : " + (index+1));
 
 	}
 
