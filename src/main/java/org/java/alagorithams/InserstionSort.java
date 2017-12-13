@@ -29,7 +29,7 @@ public class InserstionSort {
 	}
 
 	public static void main(String[] args) {
-		InserstionSort bs = new InserstionSort();
+		InserstionSort inserstionSort = new InserstionSort();
 		int n;
 		int arr[];
 		System.out.println("Enter How many Numbers :");
@@ -40,10 +40,10 @@ public class InserstionSort {
 			arr[i] = new Scanner(System.in).nextInt();
 		}
 		System.out.println("Before Sort Array : ");
-		bs.print(arr);
-		bs.sort(arr);
+		inserstionSort.print(arr);
+		inserstionSort.sort(arr);
 		System.out.println("\nAfter Sort Array : ");
-		bs.print(arr);
+		inserstionSort.print(arr);
 
 	}
 

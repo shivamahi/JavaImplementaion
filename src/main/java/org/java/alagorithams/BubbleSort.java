@@ -26,7 +26,7 @@ public class BubbleSort {
 	}
 
 	public static void main(String[] args) {
-		BubbleSort bs = new BubbleSort();
+		BubbleSort bubbleSort = new BubbleSort();
 		int n;
 		int arr[];
 		System.out.println("Enter How many Numbers :");
@@ -37,10 +37,10 @@ public class BubbleSort {
 			arr[i] = new Scanner(System.in).nextInt();
 		}
 		System.out.println("Before Sort Array : ");
-		bs.print(arr);
-		bs.sort(arr);
+		bubbleSort.print(arr);
+		bubbleSort.sort(arr);
 		System.out.println("\nAfter Sort Array : ");
-		bs.print(arr);
+		bubbleSort.print(arr);
 
 	}
 
