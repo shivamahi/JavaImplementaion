@@ -17,7 +17,7 @@ public class LinearSearch {
 	public static void main(String[] args) {
 		int n, ser;
 		int arr[];
-		LinearSearch selectionSort = new LinearSearch();
+		LinearSearch linearSearch = new LinearSearch();
 		System.out.println("Enter How many List Numbers :");
 		n = new Scanner(System.in).nextInt();
 		System.out.println("Enter " + n + " numbers ");
@@ -27,11 +27,11 @@ public class LinearSearch {
 		}
 		System.out.println("\nEnter which element you want Search : ");
 		ser = new Scanner(System.in).nextInt();
-		int index = selectionSort.searchElement(arr, ser);
+		int index = linearSearch.searchElement(arr, ser);
 		if (index == -1)
-			System.out.println("Element Not Found");
+			System.out.println("Your Searching Element Not Found in  List");
 		else
-			System.out.println("Elemnt Is Found In Position : " + (index+1));
+			System.out.println("Searching Elemnt Is Found In Position : " + (index+1));
 
 	}
 
