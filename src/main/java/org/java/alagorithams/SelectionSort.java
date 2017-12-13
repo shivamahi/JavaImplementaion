@@ -34,7 +34,7 @@ public class SelectionSort {
 	public static void main(String[] args) {
 		int n;
 		int arr[];
-		SelectionSort bs = new SelectionSort();
+		SelectionSort selectionSort = new SelectionSort();
 		System.out.println("Enter How many Numbers :");
 		n = new Scanner(System.in).nextInt();
 		System.out.println("Enter " + n + " numbers ");
@@ -43,10 +43,10 @@ public class SelectionSort {
 			arr[i] = new Scanner(System.in).nextInt();
 		}
 		System.out.println("Before Sort Array : ");
-		bs.print(arr);
-		bs.sort(arr);
+		selectionSort.print(arr);
+		selectionSort.sort(arr);
 		System.out.println("\nAfter Sort Array : ");
-		bs.print(arr);
+		selectionSort.print(arr);
 
 	}
 
